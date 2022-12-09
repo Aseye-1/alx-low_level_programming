@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- *main - uses puts to print a line of code
- *
- *Return : 0
+ *hello_puts - uses the puts function
+ *prints exactly and followed by a new line
+ *Return : Always 0 (success)
  */
 
-int main(void)
+void hello_puts(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
