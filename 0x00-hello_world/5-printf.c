@@ -1,7 +1,8 @@
+#include <stdio.h>
 /**
- * hello_printf - the use of printf function 
- * Return : Always 0
- *
+*hello_printf - The use of printf function
+*
+*Return: Always 0
  */
 
 int hello_printf(void)
