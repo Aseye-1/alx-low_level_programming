@@ -2,7 +2,8 @@
 
 /**
 *main - Entry point
-*Return: 0 (Success)
+*
+*Return: Always 0 (Success)
 *
  */
 
@@ -16,7 +17,7 @@ int main(void)
 	c = 'a';
 	d = '0';
 	while
-		(d < 9) {
+		(d < 10) {
 			putchar(d + '0');
 			d++;
 		}
