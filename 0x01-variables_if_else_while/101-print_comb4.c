@@ -19,7 +19,7 @@ int main(void)
 		{
 			for (o = 0; o <= 9; o++)
 			{
-				if (m > n && n > o)
+				if (o > n && n > m)
 				{
 					putchar(m + '0');
 					putchar(n + '0');
