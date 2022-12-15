@@ -6,17 +6,16 @@
 *
  */
 
-int main(void)
+int main(void);
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	int  = "_putchar";
+	s = sizeof(int)
+		
+	for (int = 0; int < s; ++i)
+
+	{
+		_putchar("char _putchar \n");
+	}
 
 	return (0);
 }
