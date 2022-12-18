@@ -6,16 +6,17 @@
 *
  */
 
-int main(void);
+int main(void)
 {
-	int  = "_putchar";
-	s = sizeof(int)
-		
-	for (int = 0; int < s; ++i)
+	char *c = "_putchar";
 
+	while (*c)
 	{
-		_putchar("char _putchar \n");
+		_putchar(*c);
+
+		c++;
 	}
+	_putchar('\n');
 
 	return (0);
 }
