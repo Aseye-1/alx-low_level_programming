@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
-*main - Entry point
-*Return: 0 (Success)
-*
+*print_alphabet_x10 - prints alphabet a-z ten times
+*Return: prints a-z 10x
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
 	int k;
 	int l;
