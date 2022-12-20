@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "main.h"
 
 /**
-*main - Entry point
-*@c: input
+*main - main block
+*new line follows
 *Return: 0
  */
 
