@@ -1,14 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
 * str_concat - concats strings
 * @s1: string 1
 * @s2: string 2
 * Return: returns concated string
  */
-
 char *str_concat(char *s1, char *s2)
 {
 	int i, len1, len2;
@@ -46,7 +44,6 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	for (i = 0; i < len2; i++)
-
 	{
 		conc[i + len1] = s2[i];
 	}
