@@ -1,23 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
- * clear_bit - sets the value of a bit to 0 at a given index
- * @n: number to iterate over
- * @index: index to clear at
- * Return: 1 if worked or -1 if there was an error
+ * clear_bit - set a bit to 0
+ * @n: the number
+ * @index: the position to set the bit
+ * Description: set 1 bit to 0
+ * section header: the header of this function is holberton.h
+ * Return: 1 in success -1 in fail
  */
-
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-	int bit;
-
 	if (index > 64)
 		return (-1);
-	bit = ~(1 << index);
-
-	*n = *n & bit;
-
+	*n &= ~(1 << index);
 	return (1);
 }
